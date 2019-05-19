@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flower Garden</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+	<!--ヘッダー-->
+	<header class="header">
+		<h1 class="logo"><a heaf="index.html"><img src="images/title.png"></a></h1>
+		<div class="wood"><img src="images/wood.gif"></div>
+		<nav class="nav">
+			
+			<ul>
+					<li><a href="index.html"><img src="images/home.gif"></a></li>
+		           		<li><a href="information.html"><img src="images/information.gif"></a></li>
+		           		<li><a href="access.html"><img src="images/access.gif"></a></li>
+		           		<li><a href="photo.html"><img src="images/photo.gif"></a></li>
+		           		<li><a href="contact.html"><img src="images/contact.gif"></a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--ヘッダー　ここまで-->
+	<!--メイン-->
+	<div class="keyvisual">
+		<img src="images/pisakannsa.jpg" alt="" class="main">	
+	</div>
+	<main>
+		<h2>お問い合わせ</h2>
+		<form method="GET" action="result.html">
+			<div>
+				<label for="kind">お問い合わせの種類</label><br>
+				<select id="kind" name="kind">
+					<option value="reservation">ご予約</option>
+					<option value="event">イベントについて</option>
+					<option value="contact">その他のお問い合わせ</option>
+				</select>
+			</div>
+			<div>
+				Flower gardenにご来店いただいたことはありますか。<br>
+				<label><input type="radio" name="first" value="yes" checked>はい</label>
+				<label><input type="radio" name="first" value="no">いいえ</label>
+			</div>
+			<div>
+				当園をお知りになったきっかけは？<br>
+				<label><input type="checkbox" name="how" value="friends">知り合いの紹介で</label>
+				<label><input type="checkbox" name="how" value="magazine">雑誌・Web・サイトで見て</label>
+			</div>
+			<div>
+				<label>お問い合わせの件名<br>
+				<input type="text" name="subject" placeholder="お問い合わせ"></label>
+			</div>
+			<div>
+				<label>お問い合わせの具体的な内容<br>
+				<textarea name="massage"></textarea></label>
+			</div>
+			<div>
+				<input type="submit" name="submit" value="送信">
+			</div>
+		</form>		
+	</main>
+	<!--メイン　ここまで-->
+	<!--フッター-->
+	<div class="clover"><img src="images/clover.gif"></div>
+	<footer class="footer">
+		<p>&copy;Copyright Botanical garden. All rights reserved.</p>
+	</footer>
+	<!--フッター　ここまで-->
+</div>
+</body>
+</html>

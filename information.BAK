@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flower Garden</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+	<!--ヘッダー-->
+	<header class="header">
+		<h1 class="logo"><a heaf="index.html"><img src="images/title.png"></a></h1>
+		<div class="wood"><img src="images/wood.gif"></div>
+		<nav class="nav">
+			
+			<ul>
+					<li><a href="index.html"><img src="images/home.gif"></a></li>
+		           		<li><a href="information.html"><img src="images/information.gif"></a></li>
+		           		<li><a href="access.html"><img src="images/access.gif"></a></li>
+		           		<li><a href="photo.html"><img src="images/photo.gif"></a></li>
+		           		<li><a href="contact.html"><img src="images/contact.gif"></a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--ヘッダー　ここまで-->
+	<!--メイン-->
+	<div class="keyvisual">
+		<img src="images/rose.jpg" alt="" class="main">
+	</div>
+	<main>
+		<h2>Information</h2>
+		<div class="text">Flower Gardenは練習用の架空の植物園です。四季によって異なった容貌を見せる植物たちをどうぞご覧あれ。</div>
+		<table class="info">
+		<tr>
+  		<th>住所</th>
+<td>〒639-66532 阿形県佐々木市上野667-1（<a href="access.html">地図</a>）</td>
+		</tr>
+		<tr>
+			<th>電話番号</th>
+			<td>054-7464-6254</td>
+		</tr>
+		<tr>
+			<th>営業時間</th>
+			<td>9:00～20:00</td>
+		</tr>
+		<tr>
+			<th>休園日</th>
+			<td>水曜日・日曜日</td>
+		</tr>
+		<tr>
+			<th>ご予約</th>
+			<td>ご予約は、お電話もしくは<a href="contact.html">お問い合わせフォーム</a>より受け付けております。ご予約希望日時と人数をお知らせください。<br>
+		※フォームからのご予約にはお時間がかかる場合がございますので、ご了承ください。</td>
+		</tr>
+		</table>
+	</main>
+	<!--メイン　ここまで-->
+	<!--フッター-->
+	<div class="clover"><img src="images/clover.gif"></div>
+	<footer class="footer">
+		<p>&copy;Copyright Flower garden. All rights reserved.</p>
+	</footer>
+	<!--フッター　ここまで-->
+</div>
+</body>
+</html>
